@@ -1,12 +1,12 @@
 import { createContext, useState } from 'react';
 import './App.css';
-import Map from './components/Map';
+import Derection from './components/Derection';
 export const userContext = createContext()
 function App() {
   const [user, setUser] = useState([])
   return (
     <div>
-      <Map />
+      <Derection />
     </div>
   );
 }
